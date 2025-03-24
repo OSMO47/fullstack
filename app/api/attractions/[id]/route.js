@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { mysqlPool } from "@/utils/db";
 
 export async function GET(request, context) {
-  const { params } = context; // ✅ ใช้ context แทน
+  const { params } = context; // ✅ ใช้ context แทน;lkmknlknk
   const id = params.id;
 
   const promisePool = mysqlPool.promise();
